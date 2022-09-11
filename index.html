@@ -11,7 +11,7 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
-    <!-- Bootstrap Icons CDN -->
+    <!-- Bootstrap Barts Icons CDN -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <div class="container-fluid">
         <a href="#" class="navbar-brand"
-          ><span class="badge bg-danger shadow">Bundle Insurance</span></a
+          ><span class="badge bg-danger shadow">Bartosz Kwasniewski</span></a
         >
         <button
           class="navbar-toggler"
@@ -42,8 +42,8 @@
                 data-bs-toggle="collapse"
                 data-bs-target=".multi-collapse"
                 aria-expanded="false"
-                aria-controls="Home Business"
-                >Car</a
+                aria-controls="About Contact"
+                >Info</a
               >
             </li>
             <li class="nav-item">
@@ -53,8 +53,8 @@
                 class="nav-link"
                 data-bs-toggle="collapse"
                 aria-expanded="false"
-                aria-controls="Car"
-                >Home</a
+                aria-controls="Info"
+                >About</a
               >
             </li>
             <li class="nav-item">
@@ -66,7 +66,7 @@
                 data-bs-target=".multi-collapse"
                 aria-expanded="false"
                 aria-controls="Business"
-                >Business</a
+                >Contact</a
               >
             </li>
           </ul>
@@ -74,13 +74,38 @@
       </div>
     </nav>
     <!-- HEADER -->
-    <header class="container-fixed-top text-end mt-5">
+    <header class="container fixed-top text-end mt-5">
       <h1 class="display-1">
         Hi. I am <span class="badge bg-secondary">Bartosz</span>
       </h1>
+      <h2 class="display-3">Web Developer</h2>
+      <!-- HEADER >  Portfolio & Email Btn Group -->
+      <div class="btn-group">
+        <!-- Profile Btn -->
+        <button
+          class="btn btn-outline-danger text-uppercase"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#portfolio"
+          aria-controls="portfolio"
+        >
+          my portfolio
+        </button>
+        <!-- Email Btn -->
+        <button
+          class="btn btn-danger"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#email"
+          aria-controls="email"
+        >
+          <i class="bi bi-envelope-open"></i>
+        </button>
+      </div>
+
+      <!-- HEADER >  About & Contact dropdown content -->
     </header>
-    <!-- HEADER >  Portfolio & Email Btn Group -->
-    <!-- HEADER >  About & Contact dropdown content -->
+
     <!-- PROFILE IMAGE -->
     <!-- PORTFOLIO OFFCANVAS CONTENT -->
     <!-- EMAIL OFFCANVAS CONTENT -->
